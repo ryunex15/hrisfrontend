@@ -2,7 +2,7 @@ import React from "react";
 
 const DaftarAbsensi = () => {
    return <div className="bg-white rounded-lg p-4 text-xl">Daftar Absensi
-   <br />
+   <hr class="mt-5 mb-5"/>
    
 
 <div class="relative overflow-x-auto">
@@ -10,60 +10,38 @@ const DaftarAbsensi = () => {
         <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    Product name
+                    No
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Color
+                    Name
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Category
+                    Role
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Price
+                    Time
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Date
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr class="bg-white dark:bg-gray-800">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Apple MacBook Pro 17"
+                    1
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                    Jhon
                 </td>
                 <td class="px-6 py-4">
-                    Laptop
+                    PKL
                 </td>
                 <td class="px-6 py-4">
-                    $2999
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Microsoft Surface Pro
-                </th>
-                <td class="px-6 py-4">
-                    White
+                    07:53
                 </td>
                 <td class="px-6 py-4">
-                    Laptop PC
-                </td>
-                <td class="px-6 py-4">
-                    $1999
-                </td>
-            </tr>
-            <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Magic Mouse 2
-                </th>
-                <td class="px-6 py-4">
-                    Black
-                </td>
-                <td class="px-6 py-4">
-                    Accessories
-                </td>
-                <td class="px-6 py-4">
-                    $99
+                    Monday, 10 July 2024
                 </td>
             </tr>
         </tbody>
