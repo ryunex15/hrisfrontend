@@ -3,17 +3,18 @@ import { Dropdown } from "flowbite-react";
 
 const DaftarAbsensi = () => {
    return <div className="bg-white rounded-lg p-4 text-xl">Daftar Absensi
-   <hr class="mt-5 mb-5"/>
+   <hr class="mt-5 mb-2"/>
     
-   <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg">
+   <div class="max-w-2xl mx-auto bg-white p-2 rounded-lg mb-2">
    <form class="flex flex-wrap items-center space-x-4">
       
       <div>
         <label for="role" class="block text-sm font-medium text-gray-700">Role</label>
         <select id="role" name="role" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-          <option>Admin</option>
-          <option>User</option>
-          <option>Guest</option>
+          <option>Manager</option>
+          <option>Karyawan</option>
+          <option>Magang</option>
+          <option>PKL</option>
         </select>
       </div>
       
@@ -21,7 +22,6 @@ const DaftarAbsensi = () => {
         <label for="name" class="block text-sm font-medium text-gray-700">Nama</label>
         <select id="name" name="name" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
           <option>John Doe</option>
-          <option>Jane Smith</option>
           <option>Michael Johnson</option>
         </select>
       </div>
