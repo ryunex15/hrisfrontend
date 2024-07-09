@@ -1,6 +1,7 @@
 import React from "react";
 import { MdEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
+import { BiSolidUserDetail } from "react-icons/bi";
 
 const DataPengguna = () => {
   return (
@@ -47,6 +48,10 @@ const DataPengguna = () => {
                 <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
                   <MdDelete className="mr-1" />
                   <a href="/">Delete</a>
+                </li>
+                <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
+                  <BiSolidUserDetail te className="mr-1" />
+                  <a href="/">Detail</a>
                 </li>
               </td>
             </tr>
