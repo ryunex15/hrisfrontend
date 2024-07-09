@@ -8,6 +8,7 @@ import { AiOutlineHome, AiOutlineClose } from "react-icons/ai";
 import { RiLogoutBoxLine } from "react-icons/ri";
 import { SiHelpscout, SiSinglestore } from "react-icons/si";
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai";
+import { FaUserPlus } from "react-icons/fa";
 
 const MainSidebar = () => {
   const { open, toggle } = useContext(MenuContext);
@@ -99,12 +100,21 @@ const MainSidebar = () => {
         </li>
 
         <hr className="mt-5 mb-5 border-black border-1" />
+
+        <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
+          <FaUserPlus  className="mr-2" />
+          <Link href="/about-us" onClick={closeSeideBarHandler}>
+            Tambah Data
+          </Link>
+        </li>
+        
         <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
           <SiHelpscout className="mr-2" />
           <Link href="/about-us" onClick={closeSeideBarHandler}>
             Tentang Kami
           </Link>
         </li>
+
 
         <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
           <RiLogoutBoxLine className="mr-2 shadow-lg" size={20} />
